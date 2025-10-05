@@ -15,7 +15,7 @@
 ##	Структура проекта
 ```
 helloapi/
-│
+├── assets/                # Папка с изображениями
 ├── cmd/
 │   └── server/      
 │       └── main.go        # Точка входа для запуска сервера
@@ -29,13 +29,7 @@ helloapi/
 ```
 
 
-## Установка и запуск
-
-### После клонирования репозитория:
-```bash
-cd helloapi
-```
-
+## Установка
 Установка зависимостей
 ```bash
 go mod tidy
@@ -77,10 +71,10 @@ curl http://localhost:8080/health
 
 ## Скриншоты работы
 ### Результат запроса /hello
-![screenshot1.png](screenshot1.png)
+![screenshot1.png](assets/screenshot1.png)
 ### Результат запроса /user
-![screenshot2.png](screenshot2.png)
+![screenshot2.png](assets/screenshot2.png)
 ### Результат запроса /health
-![screenshot3.png](screenshot3.png)
+![screenshot3.png](assets/screenshot3.png)
 ### Логи сервера
-![screenshot4.png](screenshot4.png)
+![screenshot4.png](assets/screenshot4.png)
